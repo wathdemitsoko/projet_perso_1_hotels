@@ -13,7 +13,7 @@ La variable cible `Reviewer_Score` est numérique. Le problème est donc traité
 Une partie importante du projet consiste à transformer le texte des commentaires en variables numériques utilisables par un modèle d'apprentissage automatique.
 
 ## Données
-Les fichiers CSV utilisés pour l'entraînement et le test ne sont pas inclus dans ce dépôt.
+Les fichiers CSV utilisés pour l'entraînement et le test ne sont pas inclus dans ce dépôt pour des raisons de gestion de volume et de confidentialité.
 
 Pour reproduire l'analyse, il faut placer les fichiers de données dans le dossier du projet avec les noms attendus par le notebook.
 
