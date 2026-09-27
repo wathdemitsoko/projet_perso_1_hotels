@@ -13,6 +13,9 @@ La variable cible `Reviewer_Score` est numérique. Le problème est donc traité
 Une partie importante du projet consiste à transformer le texte des commentaires en variables numériques utilisables par un modèle d'apprentissage automatique.
 
 ## Données
+Les fichiers CSV utilisés pour l'entraînement et le test ne sont pas inclus dans ce dépôt.
+
+Pour reproduire l'analyse, il faut placer les fichiers de données dans le dossier du projet avec les noms attendus par le notebook.
 
 Le notebook attend deux fichiers :
 
@@ -118,7 +121,7 @@ KFold
 
 ```text
 .
-├── TP6_hotels_version_francaise.ipynb
+├── projet_perso_hôtels.ipynb
 ├── train_reviews.csv
 ├── test_reviews.csv
 └── predictions_test.csv        # créé après exécution du notebook
@@ -143,7 +146,7 @@ jupyter notebook
 Ouvrir ensuite :
 
 ```text
-TP6_hotels_version_francaise.ipynb
+projet_perso_hôtels.ipynb
 ```
 
 Les premières cellules chargent les données. La partie entraînement peut prendre du temps car plusieurs configurations sont testées avec une validation croisée.
