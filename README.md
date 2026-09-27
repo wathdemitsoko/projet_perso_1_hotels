@@ -13,7 +13,9 @@ La variable cible `Reviewer_Score` est numérique. Le problème est donc traité
 Une partie importante du projet consiste à transformer le texte des commentaires en variables numériques utilisables par un modèle d'apprentissage automatique.
 
 ## Données
-Les fichiers CSV utilisés pour l'entraînement et le test ne sont pas inclus dans ce dépôt pour des raisons de gestion de volume et de confidentialité.
+Ce projet a été réalisé dans le cadre d'une compétition privée Kaggle **(Score final RMSE: 1,11).**
+
+Les fichiers CSV utilisés pour l'entraînement et le test ne sont donc pas inclus dans ce dépôt.
 
 Pour reproduire l'analyse, il faut placer les fichiers de données dans le dossier du projet avec les noms attendus par le notebook.
 
