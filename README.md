@@ -119,15 +119,6 @@ GridSearchCV
 KFold
 ```
 
-## Structure du dépôt
-
-```text
-.
-├── projet_perso_hôtels.ipynb
-├── train_reviews.csv
-├── test_reviews.csv
-└── predictions_test.csv        # créé après exécution du notebook
-```
 
 ## Installation
 
